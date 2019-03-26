@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ruby:
+    image: ruby:2.5
+    command: bash -c 'gem install lex && ruby lex.rb'
+    working_dir: /usr/app/
+    volumes:
+      - ./:/usr/app/
