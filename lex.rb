@@ -150,12 +150,7 @@ end
 
 teste = PascalLanguage.new
 
-output = teste.lex( "Write('Digite Num1:'); 
-Readln(Num1);
-      Num2:=123*1.23E+4*40.+555;
-Sum:=Num1+Num2*1;
-Writeln(Sum);
-Readln")
+output = teste.lex( "Write('Digite Num1:') Readln(Num1); Num2:=123*1.23E+4*40.+555; Sum:=Num1+Num2*1; Writeln(Sum);eadln")
 
 
 puts output.map{|k,v| "#{k} => #{v}"}

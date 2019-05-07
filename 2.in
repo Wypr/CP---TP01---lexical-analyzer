@@ -1,4 +1,24 @@
 Program Primeiro_Programa1;
+{
+        pai 
+
+        Arrow é ruim com força
+
+        Gorillaz
+        
+        sleeping powder
+
+}
+(*
+ 	um comentário top
+
+        top 
+
+        top tio
+        
+        tio ti o
+
+*)
 Begin
         Write('Hello World! 123 Eba. 123.123Eu sei fazer exemplo chato.');
         Readln;
